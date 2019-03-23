@@ -1,0 +1,22 @@
+{
+  "name": "ow",
+  "version": "1.0.0",
+  "description": "\"Vehicle tracking app'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "request": "^2.88.0"
+  },
+  "author": "\"@Malintha Ranasinghe'",
+  "license": "ISC"
+}

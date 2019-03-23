@@ -1,0 +1,29 @@
+<h2 class="page-header">Register</h2>
+<form (ngSubmit)="onRegisterSubmit()">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" [(ngModel)]="name" class="form-control" [ngModelOptions]="{standalone: true}"  placeholder="Your name">
+    </div>
+    <div class="form-group">
+        <label for="name">username</label>
+        <input type="text" [(ngModel)]="username" class="form-control" [ngModelOptions]="{standalone: true}"  placeholder="username">
+    </div>
+
+    <div class="form-group">
+        <label for="email">email</label>
+        <input type="email" [(ngModel)]="email" class="form-control"  [ngModelOptions]="{standalone: true}" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" [(ngModel)]="password" class="form-control" [ngModelOptions]="{standalone: true}" placeholder="New Password">
+    </div>
+    <div class="form-group">
+        <input type="submit" class="form-control" name="subbutton"/>
+    </div>
+</form>
+
+<p>{{name}}</p>
+<p>{{username}}</p>
+<p>{{email}}</p>
+<P>{{password}}</P>
+
